@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+header{
+        color: blue;
+        height: 150px;
+}
+
+#solar{
+    float: left;
+
+}
+
+nav{
+float: right;
+font-size: 17px;
+padding: 70px;
+margin: 0px 10px 0px 10px;
+}
+
+nav>ul>li{
+    display: inline-block;
+}
+
+#section1{
+    background-image: url("../img/fundo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+
+}
+
+#botao1{
+    color: white;
+    background-color: blue;
+    float: left;
+}
+
+
+/* topo,direita,baixo,esquerda */
+
+h2{
+    text-align: center;
+}
+
+#section2>article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+#section3>figure{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
