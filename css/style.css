@@ -8,6 +8,10 @@ h2{
     text-align: center;
 }
 
+nav>ul>li>a{
+    color: rgba(75,73,160,255);
+}
+
 header{
         color: blue;
         height: 150px;
@@ -53,6 +57,7 @@ nav>ul>li{
 #botao1{
     color: rgba(229,244,249,255);
     background-color: rgba(30,152,225,255);
+    border-color:rgba(30,152,225,255);
     float: left;
     padding: 20px;
 }
@@ -85,6 +90,7 @@ nav>ul>li{
 #botao2{
     padding: 10px;
     color: rgba(52,156,220,255);
+    border-color: rgba(52,156,220,255);
     margin: 20px;
 }
 
@@ -139,4 +145,12 @@ footer{
 
 #roda{
     float: right;
+}
+
+nav>ul>li>a{
+    color: rgba(75,73,160,255);
+}
+
+#section7>article>a{
+    color: brown;
 }
