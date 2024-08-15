@@ -4,6 +4,10 @@
     font-family: Arial;
 }
 
+h2{
+    text-align: center;
+}
+
 header{
         color: blue;
         height: 150px;
@@ -16,51 +20,123 @@ header{
 
 nav{
 float: right;
-font-size: 17px;
-padding: 70px;
+font-size: 20px;
+padding: 25px;
 margin: 0px 10px 0px 10px;
+}
+
+nav>ul{
+    padding: 5px 30px 15px ;
 }
 
 nav>ul>li{
     display: inline-block;
+    padding: 50px;
+}
+
+#titulo {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 200;
 }
 
 #section1{
     background-image: url("../img/fundo.jpg");
-    height: 100%;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px;
-
+    padding: 200px;
+    margin: 20px 0px 50px 0px;
 }
 
 #botao1{
-    color: white;
-    background-color: blue;
+    color: rgba(229,244,249,255);
+    background-color: rgba(30,152,225,255);
     float: left;
+    padding: 20px;
 }
+
 
 
 /* topo,direita,baixo,esquerda */
 
-h2{
-    text-align: center;
-}
+
 
 #section2>article{
     width: 33%;
     display: inline-block;
     text-align: center;
+    margin: 40px 0px 30px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
-
+#section2>article>h3{
+    color: rgba(243,172,79,255);
+}
 
 #section3>figure{
     width: 33%;
     display: inline-block;
     text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+#botao2{
+    padding: 10px;
+    color: rgba(52,156,220,255);
+    margin: 20px;
+}
+
+#section4>article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+#numero{
+    color: rgba(28,151,220,255);
+    font-size: 50px;
+}
+
+#section5{
+    background-color: rgb(37, 150, 190);
+    color: rgba(205,215,218,255);
+    height: 100px;
+    padding: 30px;
+    margin: 40px 0px 40px 0px;
+}
+
+#section6>article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 40px 0px 40px 0px;
+}
+
+#section7{
+    background-color: rgba(68,70,69,255);
+    color: rgba(254,254,254,255);
 }
 
 
+#section7>article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
 
+#section7>article>ul{
+    list-style: none;
+    margin: 20px 0px 10px 0px;
+}
+
+footer{
+    margin: 50px;
+}
+
+#roda{
+    float: right;
+}
