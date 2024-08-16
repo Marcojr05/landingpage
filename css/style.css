@@ -139,6 +139,10 @@ nav>ul>li{
     margin: 20px 0px 10px 0px;
 }
 
+#section7>article>ul>li>a{
+color: rgba(210,211,215,255);
+}
+
 footer{
     margin: 50px;
 }
@@ -147,10 +151,8 @@ footer{
     float: right;
 }
 
-nav>ul>li>a{
-    color: rgba(75,73,160,255);
-}
 
-#section7>article>a{
-    color: brown;
+
+#menu>a{
+
 }
