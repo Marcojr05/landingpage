@@ -22,7 +22,7 @@ header{
 
 }
 
-nav{
+/* nav{
 float: right;
 font-size: 20px;
 padding: 25px;
@@ -36,7 +36,7 @@ nav>ul{
 nav>ul>li{
     display: inline-block;
     padding: 50px;
-}
+} */
 
 #titulo {
     color: aliceblue;
@@ -62,11 +62,7 @@ nav>ul>li{
     padding: 20px;
 }
 
-
-
 /* topo,direita,baixo,esquerda */
-
-
 
 #section2>article{
     width: 33%;
@@ -122,7 +118,7 @@ nav>ul>li{
 }
 
 #section7{
-    background-color: rgba(68,70,69,255);
+    background-color: rgb(117, 114, 114);
     color: rgba(254,254,254,255);
 }
 
@@ -149,4 +145,38 @@ footer{
 
 #roda{
     float: right;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header{
+        display: flex;
+    }
+
+    nav{
+        font-size: 20px;
+        padding: 25px;
+        margin: 0px 10px 0px 10px;
+        }
+        
+        nav>ul{
+            padding: 5px 30px 15px ;
+        }
+        
+        nav>ul>li{
+            display: flex;
+            padding: 50px;
+        }
+
+    .section7{
+        display: block;
+    }
+
+    .section6{
+        /* display: flex; */
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
 }
