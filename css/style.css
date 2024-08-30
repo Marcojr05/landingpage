@@ -17,27 +17,6 @@ header{
         height: 150px;
 }
 
-#solar{
-    float: left;
-
-}
-
-/* nav{
-float: right;
-font-size: 20px;
-padding: 25px;
-margin: 0px 10px 0px 10px;
-}
-
-nav>ul{
-    padding: 5px 30px 15px ;
-}
-
-nav>ul>li{
-    display: inline-block;
-    padding: 50px;
-} */
-
 #titulo {
     color: aliceblue;
     font-size: 50px;
@@ -64,23 +43,8 @@ nav>ul>li{
 
 /* topo,direita,baixo,esquerda */
 
-#section2>article{
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    margin: 40px 0px 30px 0px;
-    padding: 50px 0px 50px 0px;
-}
-
 #section2>article>h3{
     color: rgba(243,172,79,255);
-}
-
-#section3>figure{
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    margin: 40px 0px 20px 0px;
 }
 
 #botao2{
@@ -88,12 +52,6 @@ nav>ul>li{
     color: rgba(52,156,220,255);
     border-color: rgba(52,156,220,255);
     margin: 20px;
-}
-
-#section4>article{
-    width: 33%;
-    display: inline-block;
-    text-align: center;
 }
 
 #numero{
@@ -109,25 +67,9 @@ nav>ul>li{
     margin: 40px 0px 40px 0px;
 }
 
-#section6>article{
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-    margin: 40px 0px 40px 0px;
-}
-
 #section7{
     background-color: rgb(117, 114, 114);
     color: rgba(254,254,254,255);
-}
-
-
-#section7>article{
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    margin: 40px 0px 40px 0px;
 }
 
 #section7>article>ul{
@@ -143,7 +85,7 @@ footer{
     margin: 50px;
 }
 
-#roda{
+#rodape{
     float: right;
 }
 
@@ -157,26 +99,78 @@ footer{
         font-size: 20px;
         padding: 25px;
         margin: 0px 10px 0px 10px;
-        }
-        
-        nav>ul{
-            padding: 5px 30px 15px ;
-        }
-        
-        nav>ul>li{
-            display: flex;
-            padding: 50px;
-        }
-
-    .section7{
         display: block;
-    }
+        }
 
-    .section6{
-        /* display: flex; */
-    }
+        nav>ul>li{
+            list-style: none;
+        }
+        #section2>article{
+        padding: 3px;
+        margin: 20px 0px 10px 10px;
+        text-align: center;
+        }
+
+        #section3>figure{
+            margin: 40px 0px 20px 0px;
+            text-align: center;
+        }
+
+        #section4>article{
+            text-align: center;
+        }
+        
+
+        #section6>article{
+            text-align: center;
+            padding: 40px 0px 40px 0px;
+            margin: 40px 0px 40px 0px;
+        }
+
+        #section7>article{
+            text-align: center;
+            margin: 40px 0px 40px 0px;
+        }
 }
 
-@media only screen and (min-width: 768px) {
 
+@media only screen and (min-width: 768px) {
+    
+    nav{
+        display: block;
+        font-size: 20px;
+        margin: 0px 2px 0px 10px;
+        }
+        
+        
+        nav>ul>li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        .sections{
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+
+        }
+
+    #section2>article{
+        margin: 40px 0px 30px 0px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    #section3>figure{
+        margin: 40px 0px 20px 0px;
+    }
+
+
+    #section6>article{
+        padding: 40px 0px 40px 0px;
+        margin: 40px 0px 40px 0px;
+    }
+
+    #section7>article{
+        margin: 40px 0px 40px 0px;
+    }
 }
